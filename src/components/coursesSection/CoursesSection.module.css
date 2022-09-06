@@ -1,0 +1,67 @@
+#tabsHeaders {
+  justify-content: space-between;
+  overflow-x: auto;
+  display:inline;
+}
+.tabutton{
+  display: inline;
+  margin: 1% 1% 1% 1% ;
+  color: gray;
+  font-size: large;
+}
+.tabutton:hover{
+  cursor: pointer;
+  color:black;
+}
+.coursesborder{
+  border-style:groove;
+  padding :2% 3% 2% 3% ;
+}
+h1{
+  font-size:40px;
+}
+h2{
+  font-size: x-large;
+}
+h3{
+  font-weight: 100;
+  padding: 0px 0px 0px 0px;
+  font-size: 20px;
+}
+p{
+  font-size: large;
+}
+body{
+  padding: 0% 5% 0% 5%;
+}
+.paragraphdescr{
+  width: 60%;
+  border-style: hidden;
+}
+.explorebtn{
+  background-color: white;
+  width: 10%;
+  padding:1% 0% 1% 0%;
+  font-weight: bold;
+  border-width: 1px;
+  cursor: pointer;
+}
+.explorebtn:hover{
+  background-color: ghostwhite;
+}
+@media screen and (max-width: 800px) {
+  .explorebtn,
+  .coursesborder p,
+  .coursesborder h2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .courses > h1,
+  .courses > h3 {
+    display: none;
+  }
+  .courses {
+    margin-top: 0;
+  }
+}
